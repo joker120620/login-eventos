@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>person</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./modal.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+            <ul class="headpage">
+                <li>
+                    <ul class="headpage2" >
+                        <li><a href="./body.html">Home</a> </li>
+                        <li><a href="#nosotros">Nosotros</a> </li>
+                        <li><a href="#productos">Productos</a> </li>
+                    </ul>
+                <li>Usuario: Carlitos <button class="salir">X</button></li>
+            </ul>
+            </nav>
+        </header>
+        <main class="contenido_body">
+            <div class="imagen_body">
+                <img src="https://hispanaglobal.com/wp-content/uploads/2019/05/Ensalada-de-frutas-Hispana-Global-4.jpg" alt="ensalada" width="100%" height="100%">
+            </div>
+            <div class="nosotros" id="nosotros">
+                <h2>NOSOSTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt sequi vel eligendi reprehenderit laboriosam. Cupiditate quidem soluta provident quaerat, expedita explicabo, ipsum molestiae in dignissimos cum laboriosam eligendi accusamus totam. Nisi adipisci culpa unde et! Neque consequatur amet nesciunt perspiciatis quod ipsum voluptas quo sapiente. Nam excepturi maiores ex architecto culpa a quidem numquam? Animi rem ipsum quam, dolores voluptas nesciunt vero repudiandae suscipit molestiae quasi cum odit nulla at. Minima molestias at possimus quo quia vero, perspiciatis accusantium vel aut inventore sunt natus totam, assumenda saepe fuga architecto? Vero, voluptate? Et delectus, dolor quod reiciendis facilis veniam consequuntur, minus soluta cupiditate magni repudiandae corporis modi dolorum voluptatem unde explicabo in, tempora voluptatum. Deleniti sunt vel quisquam aspernatur cumque voluptates consectetur incidunt, dolorum reiciendis quidem labore, debitis in tenetur iure nemo sint delectus laboriosam veniam quibusdam porro aliquid excepturi odio! Excepturi fuga vero deleniti sequi, consequatur voluptates illum quo suscipit, aspernatur corrupti praesentium debitis qui fugit, rem soluta itaque eligendi minus dicta magnam reiciendis fugiat nulla provident ea quis. Ad explicabo adipisci impedit alias perspiciatis odit molestias excepturi! Recusandae aliquam ducimus enim qui nisi! Repellendus dolores omnis consequatur illo, odio suscipit dolorum maxime nostrum, ea libero perferendis minus repellat.</p>
+            </div>
+            <div class="productos" id="productos">
+                <h2 class="title_productos">PRODUCTOS</h2>
+                <select id="select">
+                    <option value="ninguno" selected>...</option>
+                    <option value="producto 1"><a href="">Producto1</a></option>
+                    <option value="producto 2"><a href="">Producto2</a></option>
+                    <option value="producto 3"><a href="">Producto3</a></option>
+                    <option value="producto 4"><a href="">Producto4</a></option>
+                  </select>
+                  <button class="pedir">Pedir</button>
+                  <div class="product">
+                  <div id="pro">
+                    <img src="https://www.pequerecetas.com/wp-content/uploads/2020/07/ensalada-cobb-receta.jpg" alt="" width="100%" height="100%">
+                  </div>
+                  <div id="pro">
+                    <img src="https://www.goya.com/media/3578/caribbean-potato-salad.jpg?quality=80" alt="" width="100%" height="100%">
+                  </div>
+                  <div id="pro">
+                    <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2021/12/recetas-de-ensaladas-con-vegetales-cocina-delirante.jpeg" alt="" width="100%" height="100%">
+                  </div>
+                  <div id="pro">
+                    <img src="https://t2.rg.ltmcdn.com/es/posts/8/0/8/ensalada_de_coliflor_fria_72808_600.jpg" alt="" width="100%" height="100%">
+                  </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h3 class="creditos">CODE by Juan David Toloza Ortega</h3>
+        </footer>
+        <div class="modal">
+            <div class="ventana_modal">
+                <h3 class="modal_titulo">INFORMACION DEL PERDIDO</h3>
+                <p class="modal_texto">Producto seleccionado</p>
+                <p id="modal_producto">...</p>
+                <div class="btn_agrupado">
+                    <button class="aceptar">Aceptar</button>
+                    <button class="cancelar">Cancelar</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal2">
+            <div class="segundo_modal">
+                <h3 class="segundoTituloModal">¡FELICITACIONES!</h3>
+                <p class="texto_modal2">Producto adquirido</p>
+                <button class="salir_modal2">Volver</button>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./modal.js"></script>
+</body>
+</html>
